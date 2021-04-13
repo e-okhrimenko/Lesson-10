@@ -30,7 +30,6 @@ public class CollectionWithoutDuplicates {
     }
 
     static Collection antiDuplicator(Collection c) {
-        HashSet newColl = new HashSet<>(c);
-        return newColl;
+        return new HashSet<>(c);
     }
 }
